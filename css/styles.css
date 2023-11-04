@@ -330,6 +330,7 @@ width: 1600px;
 height: 648px;
 flex-shrink: 0;
 background: #F5F4FA;
+margin: -26px;
 }
 
 .team-container-title
