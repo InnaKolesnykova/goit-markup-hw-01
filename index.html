@@ -20,121 +20,123 @@
 
     <!-- Top line -->
     <div class="top-line">
-        <h3 class="top-line-title">Web<span class="top-line-title-name">Studio</span></h3>
+        <h3 class="top-line-title">Web<span class="color-black">Studio</span></h3>
         
         <!-- Menu Nav -->
-        <div>
-            <p class="menu-s-e">
-             <a href="menu-nav">Студія</a>
+        <div class="menu-nav">
+            <p class="menu-element1">
+             <a class="active-link" href="">Студія</a>
             </p>
-            <p class="menu-nav">Портфоліо</p>
-            <p class="menu-nav">Контакти</p>
+            <p class="menu-element2">Портфоліо</p>
+            <p class="menu-element2">Контакти</p>
         </div>
 
         <!-- E-mail -->
-        <div>
-            <p class="menu-s-e">
-             <a href="info@devstudio.com">info@devstudio.com</a> 
+        <div class="e-mail">
+            <p class="contact-link">
+             <a class="hover" href="mailto:info@devstudio.com">info@devstudio.com</a> 
             </p> 
         </div>
 
         <!-- Tel -->
-        <div>
-            <p class="phone">+38 096 111 11 11</p>
+        <div class="tel-box">
+            <p class="tel">+38 096 111 11 11</p>
         </div>
 
     </div>
 
     <!-- Cap -->
-    <div class="cap-bg">
-        <h1 class="cap-bg-info">Ефективні рішення для вашого бізнесу</h1>
-        <button class="cap-button">Замовити послугу
+    <div class="cap-box">
+        <p class="cap-title">Ефективні рішення для вашого бізнесу</p>
+        <button class="button" type="button"> <p class="button-text"> Замовити послугу</p>
         </button>
     </div>
 
     <!--  Features-->
-    <div>
+    <div class="features">
 
         <!-- features1 -->
-        <div class="features">
-            <p class="features-names">УВАГА ДО ДЕТАЛЕЙ</p>
-            <p class="features-names-content">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+        <div>
+            <p class="features-title">УВАГА ДО ДЕТАЛЕЙ</p>
+            <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </div>
         <!-- features2 -->
-        <div class="features">
-            <p class="features-names">ПУНКТУАЛЬНІСТЬ</p>
-            <p class="features-names-content">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+        <div>
+            <p class="features-title">ПУНКТУАЛЬНІСТЬ</p>
+            <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </div>
         <!-- features3 -->
-        <div class="features">
-            <p class="features-names">ПЛАНУВАННЯ</p>
-            <p class="features-names-content">Так само консультація з широким активом значною мірою зумовлює.</p>
+        <div>
+            <p class="features-title">ПЛАНУВАННЯ</p>
+            <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
         </div>
         <!-- features4 -->
-        <div class="features">
-            <p class="features-names" class="">СУЧАСНІ ТЕХНОЛОГІЇ</p>
-            <p class="features-names-content">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+        <div>
+            <p class="features-title" class="">СУЧАСНІ ТЕХНОЛОГІЇ</p>
+            <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </div>
 
     </div>
 
     <!--  What do we do  -->
-    <div class="do">
-        <h2>Чим ми займаємося</h2>
-
-        <!-- box1 -->
-        <div class="do-img-1">
+    <div class="img-container">
+        <h2 class="img-title">Чим ми займаємося</h2>
+        <div class="img-box">
+           <!-- box1 -->
+           <div class="img">
            <img src="images/hero/box-1.jpg" alt="photo">
-        </div>
-        <!-- box2 -->
-        <div class="do-img-2">
+           </div>
+           <!-- box2 -->
+           <div class="img">
             <img src="images/hero/box-2.jpg" alt="photo2">
-        </div>
-        <!-- box3 -->
-        <div class="do-img-3">
+           </div>
+           <!-- box3 -->
+           <div class="img">
             <img src="images/hero/box-3.jpg" alt="photo3">
+           </div>
         </div>
-
     </div>
 
     <!-- Our team -->
-    <div>
-        <h2>Наша команда</h2>
+    <div class="team-container">
+        <h2 class="team-container-title">Наша команда</h2>
 
-        <!-- team card 1 -->
-        <div>
-            <img src="images/hero/img-1.jpg" alt="img-1">
-            <p>Ігор Дем'яненко</p>
-            <p>Product Designer</p>
-        </div>
-        <!-- team card 2 -->
-        <div>
-            <img src="images/hero/img-2.jpg" alt="img-2">
-            <p>Ольга Рєпіна</p>
-            <p>Frontend Developer</p>
-        </div>
-        <!-- team card 3 -->
-        <div>
-            <img src="images/hero/img-3.jpg" alt="img-3">
-            <p>Микола Тарасов</p>
-            <p>Marketing</p>
-        </div>
-        <!-- team card 4 -->
-        <div>
-            <img src="images/hero/img-4.jpg" alt="img-4">
-            <p>Михайло Єрмаков</p>
-            <p>UI Designer</p>
-        </div>
+        <div class="team-card-box">
+         <!-- team card 1 -->
+         <div class="team-card">
+             <img src="images/hero/card-1.jpg" alt="card-1">
+             <p class="card-name">Ігор Дем'яненко</p>
+             <p class="card-post">Product Designer</p>
+         </div>
+         <!-- team card 2 -->
+         <div class="team-card">
+             <img src="images/hero/card-2.jpg" alt="card-2">
+             <p class="card-name">Ольга Рєпіна</p>
+             <p class="card-post">Frontend Developer</p>
+         </div>
+         <!-- team card 3 -->
+         <div class="team-card">
+             <img src="images/hero/card-3.jpg" alt="card-3">
+             <p class="card-name">Микола Тарасов</p>
+             <p class="card-post">Marketing</p>
+         </div>
+         <!-- team card 4 -->
+         <div class="team-card">
+           <img src="images/hero/card-4.jpg" alt="card-4">
+             <p class="card-name">Михайло Єрмаков</p>
+             <p class="card-post">UI Designer</p>
+         </div>
+     </div>
 
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-        <h3>WebStudio</h3>
+    <div class="fotter">
+        <h3 class="fotter-title">Web<span class="color-white">Studio</span></h3>
 
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <p>info@devstudio.com</p>
-        <p>+38 096 111 11 11</p>
+        <p class="fotter-address">м. Київ, пр-т Лесі Українки, 26</p>
+        <p class="fotter-address">info@devstudio.com</p>
+        <p class="fotter-address">+38 096 111 11 11</p>
 
     </div>
 
